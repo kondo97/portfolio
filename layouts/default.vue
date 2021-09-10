@@ -16,11 +16,10 @@
                 photo
               "
             ></div>
-            <h1 class="text-xl font-bold flex items-center">Sei Kondo</h1>
+            <h1 class="text-xl font-bold flex items-center">Kondo</h1>
           </div>
           <p class="text-lg my-6 introduction-width mx-auto text-left">
-            フロントエンドエンジニアを目指しているSei
-            Kondoです。フルスタックエンジニアとして、たくさんの新サービス開発に携わるのが目標です。
+            フロントエンドエンジニアを目指しているKondoです。フルスタックエンジニアとして、たくさんの新サービス開発に携わるのが目標です。
           </p>
         </div>
         <div class="flex justify-around text-xs icon-length">

@@ -1,6 +1,10 @@
-require("dotenv").config()
-const client = require("./plugins/contentful")
+const config = require('./.contentful.json')
+const contentful = require('contentful')
 
+const client = contentful.createClient({
+  space: config.CTF_SPACE_ID,
+  accessToken: config.CTF_CDA_ACCESS_TOKEN
+})
 
 export default {
   generate: {
@@ -47,15 +51,13 @@ export default {
   ],
 
   env: {
-    // CONTENTFULの API_KEY を使う
-    CTF_SPACE_ID: process.env.CTF_SPACE_ID,
-    CTF_ACCESS_TOKEN: process.env.CTF_ACCESS_TOKEN
+    CTF_SPACE_ID: config.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~plugins/font-awesome', ssr: false },
-    { src: '@/plugins/contentful' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
