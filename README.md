@@ -1,6 +1,6 @@
 # kondoのポートフォリオサイト
 下記URLからご覧いただけます。
-[https://kondo-portfolio.netlify.app/](https://kondo-portfolio.netlify.app/)
+<p><a href="https://kondo-portfolio.netlify.app/">https://kondo-portfolio.netlify.app/</a></p>
 
 ![スクリーンショット 2021-09-10 154217](https://user-images.githubusercontent.com/85671197/134127165-b96aece8-286a-4e40-8e28-9ba7f21b5eac.png)
 
